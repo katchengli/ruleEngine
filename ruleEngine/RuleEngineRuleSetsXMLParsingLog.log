@@ -1,0 +1,105 @@
+Fri Jun 26 13:09:38 EDT 2015 java.lang.ClassNotFoundException: ruleEngine.pregapp
+    java.net.URLClassLoader$1.run(Unknown Source)
+    java.net.URLClassLoader$1.run(Unknown Source)
+    java.security.AccessController.doPrivileged(Native Method)
+    java.net.URLClassLoader.findClass(Unknown Source)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+    java.lang.ClassLoader.loadClass(Unknown Source)
+    java.lang.Class.forName0(Native Method)
+    java.lang.Class.forName(Unknown Source)
+    ruleEngine.RuleEngine.readRuleSetsXML(RuleEngine.java:25)
+    ruleEngine.RuleEngine.<init>(RuleEngine.java:16)
+    ruleEngine.RuleEngineTest.ruleEngineTest(RuleEngineTest.java:78)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+    java.lang.reflect.Method.invoke(Unknown Source)
+    org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Mon Aug 31 15:16:40 EDT 2015 PregApp
+Mon Aug 31 15:16:40 EDT 2015 []
+Mon Aug 31 15:16:40 EDT 2015 {app=[Ljava.lang.String;@3c679bde, Email=[Ljava.lang.String;@16b4a017, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@8807e25, factTable=[Ljava.lang.String;@2a3046da, Subscribed=[Ljava.lang.String;@2a098129}
+Mon Aug 31 15:19:42 EDT 2015 PregApp
+Mon Aug 31 15:19:42 EDT 2015 []
+Mon Aug 31 15:19:42 EDT 2015 {app=[Ljava.lang.String;@3c679bde, Email=[Ljava.lang.String;@16b4a017, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@8807e25, factTable=[Ljava.lang.String;@2a3046da, Subscribed=[Ljava.lang.String;@2a098129}
+Mon Aug 31 15:22:20 EDT 2015 PregApp
+Mon Aug 31 15:22:20 EDT 2015 []
+Mon Aug 31 15:22:20 EDT 2015 {app=[Ljava.lang.String;@3c679bde, Email=[Ljava.lang.String;@16b4a017, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@8807e25, factTable=[Ljava.lang.String;@2a3046da, Subscribed=[Ljava.lang.String;@2a098129}
+Mon Aug 31 15:24:59 EDT 2015 java.lang.ClassNotFoundException: rules.PregApp
+    java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+    java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    java.security.AccessController.doPrivileged(Native Method)
+    java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+    java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+    sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+    java.lang.Class.forName0(Native Method)
+    java.lang.Class.forName(Class.java:260)
+    ruleEngine.RuleEngine.readRuleSetsXML(RuleEngine.java:25)
+    ruleEngine.RuleEngine.<init>(RuleEngine.java:16)
+    ruleEngine.RuleEngineTest.ruleEngineTest(RuleEngineTest.java:78)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+    org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+    org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+    org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+    org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+    org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+    org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+    org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+    org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+    org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+    org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+    org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+    org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+    org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+    org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+    org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+    org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+    org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+    org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+    org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Mon Aug 31 15:24:59 EDT 2015 PregApp
+Mon Aug 31 15:24:59 EDT 2015 []
+Mon Aug 31 15:24:59 EDT 2015 {app=[Ljava.lang.String;@3c679bde, Email=[Ljava.lang.String;@16b4a017, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@8807e25, factTable=[Ljava.lang.String;@2a3046da, Subscribed=[Ljava.lang.String;@2a098129}
+Mon Aug 31 15:26:05 EDT 2015 PregApp
+Mon Aug 31 15:26:05 EDT 2015 [PregApp]
+Mon Aug 31 15:26:05 EDT 2015 {app=[Ljava.lang.String;@3c679bde, Email=[Ljava.lang.String;@16b4a017, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@8807e25, factTable=[Ljava.lang.String;@2a3046da, Subscribed=[Ljava.lang.String;@2a098129}
+Mon Aug 31 15:29:30 EDT 2015 PregApp
+Mon Aug 31 15:29:30 EDT 2015 [PregApp]
+Mon Aug 31 15:29:30 EDT 2015 {app=[Ljava.lang.String;@3c679bde, Email=[Ljava.lang.String;@16b4a017, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@8807e25, factTable=[Ljava.lang.String;@2a3046da, Subscribed=[Ljava.lang.String;@2a098129}
+Mon Aug 31 15:31:34 EDT 2015 PregApp
+Mon Aug 31 15:31:34 EDT 2015 [PregApp]
+Mon Aug 31 15:31:34 EDT 2015 {app=[Ljava.lang.String;@27fe3806, Email=[Ljava.lang.String;@5f71c76a, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@1d7acb34, factTable=[Ljava.lang.String;@48a242ce, Subscribed=[Ljava.lang.String;@1e4a7dd4}
+Mon Aug 31 15:33:13 EDT 2015 PregApp
+Mon Aug 31 15:33:13 EDT 2015 [PregApp]
+Mon Aug 31 15:33:13 EDT 2015 {app=[Ljava.lang.String;@27fe3806, Email=[Ljava.lang.String;@5f71c76a, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@1d7acb34, factTable=[Ljava.lang.String;@48a242ce, Subscribed=[Ljava.lang.String;@1e4a7dd4}
+Mon Aug 31 17:43:13 EDT 2015 PregApp
+Mon Aug 31 17:43:13 EDT 2015 [PregApp]
+Mon Aug 31 17:43:13 EDT 2015 {app=[Ljava.lang.String;@27fe3806, Email=[Ljava.lang.String;@5f71c76a, sendWelcomeEmail=null, DueDate=[Ljava.lang.String;@1d7acb34, factTable=[Ljava.lang.String;@48a242ce, Subscribed=[Ljava.lang.String;@1e4a7dd4}
